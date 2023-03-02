@@ -1,0 +1,38 @@
+/* common css here  */
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.main-title {
+    margin-bottom: 30px;
+    text-shadow: 1px 4px 14px #ffffff;
+}
+
+#result {
+    padding: 15px 60px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 5px #ddd;
+    background-color: #ddd;
+}
+button.cmn-btn{
+    padding: 15px 60px;
+    box-shadow: 2px 2px 5px #ddd;
+    border:0;
+    cursor:pointer;
+    transition: .3s;
+}
+
+button.cmn-btn:hover{
+    background-color: deeppink;
+    color: white;
+}
